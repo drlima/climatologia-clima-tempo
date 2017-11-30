@@ -11,4 +11,4 @@ You should install scrapy with pip:
 
 **Note**: on my system, python points to python3.6 and pip points to pip3, you should check your defaults before running it.
 
-
+![](Scrapy-Logo-Horizontal.png)
