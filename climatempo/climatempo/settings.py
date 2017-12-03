@@ -68,6 +68,10 @@ ROBOTSTXT_OBEY = True
 #    'climatempo.pipelines.ClimatempoPipeline': 300,
 #}
 
+
+ITEM_PIPELINES = {'climatempo.WriteToCsv.WriteToCsv' : 300}
+csv_file_path = './climatologia.csv'
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
@@ -88,3 +92,7 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# Added latter
+CLOSESPIDER_ITEMCOUNT = 100
+EXTENSIONS_BASE = {'scrapy.extensions.closespider.CloseSpider': 500,}
