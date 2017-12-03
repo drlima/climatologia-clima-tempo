@@ -25,7 +25,7 @@ Your csv file with the scrapped data should be on climatologia-clima-tempo/clima
 - I have only attached instructions for running this spider localy but we could also use scrapinghub's cloud, which has excellent tools for debugging, and data checking;
 - The csv structure should be: 
 
-              ``` <City>, <Minimum temperature>,  <Maximum temperature>, <Accumulated precipitation> ```
+              <City>, <Minimum temperature>,  <Maximum temperature>, <Accumulated precipitation>
 
 where fields are:
 
